@@ -1,0 +1,55 @@
+.instabot-settings__panel {
+    padding: 24px;
+    background-color: #fff;
+    border: 1px solid #d9dee4;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.instabot-settings__account {
+    font-weight: bold;
+    font-size: 16px;
+    margin-right: 5px;
+}
+
+.instabot-settings__row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 500px;
+    margin: 22px 0;
+}
+
+.instabot-settings__row > * {
+    flex: 1 1 220px;
+}
+
+.instabot-settings__row__label {
+    line-height: 2;
+}
+
+.instabot-settings__row__input {
+    display: block;
+    width: 100%;
+}
+
+.instabot-settings__row__link {
+    float: right;
+}
+
+.instabot-info {
+    color: #646464;
+}
+
+.instabot-settings__buttons {
+    margin: 10px 0;
+}
+
+.instabot-settings__validation-error {
+    margin-top: 12px;
+    color: red;
+}
+
+.instabot-settings__reset-key {
+    font-size: 12px;
+}
